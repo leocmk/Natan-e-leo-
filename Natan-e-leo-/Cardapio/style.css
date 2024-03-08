@@ -337,4 +337,123 @@ html, body{
       background-size: 100%;
       transition: all 100ms linear;
     }
-    
+    .container5{
+      width:100%;
+      height:100%;
+    }
+    .top5{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/airmax1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .top5:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/airmax2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .container6{
+      width:100%;
+      height:100%;
+    }
+    .top6{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/ozmillen1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .top6:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/ozmillen2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .container7{
+      width:100%;
+      height:100%;
+    }
+    .top7{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/jogger1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .top7:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/jogger2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .container8{
+      width:100%;
+      height:100%;
+    }
+    .top8{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/nylon1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .top8:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/nylon2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .container9{
+      width:100%;
+      height:100%;
+    }
+    .top9{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/faca1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .top9:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/faca2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
