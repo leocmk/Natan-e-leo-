@@ -614,5 +614,23 @@ html, body{
       font-size: 30px;
 
     }
-    
-  
+    .ber2{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/berm2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .ber2:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/berm2H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
