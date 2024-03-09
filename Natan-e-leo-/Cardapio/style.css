@@ -9,6 +9,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+padding: 50px;
 
 }
 
@@ -23,7 +24,7 @@ flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    gap: 250px;
+    gap: 10px;
 
 
 }
@@ -168,7 +169,7 @@ html, body{
         }
         .left{
           height:100%;
-          width: 50%;
+          width: 100%;
           background: #f4f4f4;
           position:relative;
           float:left;
@@ -451,6 +452,146 @@ html, body{
       height: 80%;
       width:100%;
       background: url(../imagens/faca2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topBlusa1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/topBlusa1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topBlusa1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/topBlusa1H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topBlusa2{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/topBlusa2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topBlusa2:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/topBlusa2H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topAf12{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/Af1.2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .topAf12:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/Af1.2H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .ten1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/ten1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .ten1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/ten1H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .cal1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/cal1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .cal1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/cal1H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .cal2{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/cal2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .cal2:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/cal2H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .ber1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/Berm1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 100ms linear;
+    }
+    .ber1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/berm1H.avif) no-repeat center center; 
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
