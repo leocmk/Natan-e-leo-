@@ -10,6 +10,7 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 padding: 50px;
+background-color: moccasin;
 
 }
 
@@ -40,6 +41,8 @@ padding: 50px;
     display: flex;
     align-items: column;
     justify-content: center;
+    font-size: 30px;
+    
     
 }
 .card-img-top{
@@ -49,7 +52,10 @@ padding: 50px;
 }
 .btn-group{
     margin-top: 20px;
-   
+    font-family: "Bungee Spice", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+ 
 }
 
 @media(width <= 1024px){
@@ -598,3 +604,15 @@ html, body{
       background-size: 100%;
       transition: all 100ms linear;
     }
+    .bungee-spice-regular {
+      font-family: "Bungee Spice", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      display: flex;
+      align-items: column;
+      justify-content: center;
+      font-size: 30px;
+
+    }
+    
+  
