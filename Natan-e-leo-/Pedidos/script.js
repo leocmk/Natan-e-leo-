@@ -17,7 +17,7 @@ function show(nome){
 
 function fechar(){
     document.getElementById("error").style.display = "none"
-    document.getElementById("exampleFormControlInput1").style.background = "lightred";
+    document.getElementById("exampleFormControlInput1").style.background = "lightorange";
 }
 
 function calcularTotal(){
