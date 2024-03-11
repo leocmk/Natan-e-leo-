@@ -33,27 +33,51 @@
       </div>
       <button onclick="comecar()" type="button" class="btn btn-outline-dark">Começar</button>
       <div id="selects-div">
-        <h2>Olá <span id="nomePrint"></span>, vamos começar seu pedido!</h2>
-        <h3>Pratos</h3>
-        <select class="form-select" aria-label="Default select example" id="selectPratos">
-        <option selected>Selecione seu prato</option>
-        <option value="Coxinha (c. catupiry)">Coxinha (c. catupiry)</option>
-        <option value="Empadão de camarão">Empadão de camarão</option>
-        <option value="Sanduiche natural">Sanduíche natural</option>
+        <h2>Olá <span id="nome-span"></span>, vamos começar seu pedido!</h2>
+        <h3>Blusas</h3>
+        <select class="form-select" aria-label="Default select example" id="selectBlusas">
+        <option selected>Selecione sua blusa</option>
+        <option value="MOLETOM VERMELHO">MOLETOM VERMELHO</option>
+        <option value="CAMISETA MANGA COMPRIDA">CAMISETA MANGA COMPRIDA</option>
+        <option value="MOLETOM CINZA">MOLETOM CINZA</option>
+        <option value="MOLETOM PRETO CHAMIPON">MOLETOM PRETO CHAMIPON</option>
+        <option value="MOLETOM BICOLOR MODERNO">MOLETOM BICOLOR MODERNO</option>
         </select> 
-        <h3>Bebidas</h3>
-        <select class="form-select" aria-label="Default select example" id="selectBebidas">
-        <option selected>Selecione sua bebida</option>
-        <option value="Cafés">Cafés</option>
-        <option value="Sucos naturais">Sucos naturais</option>
-        <option value="Chás">Chás</option>
+        <h3>Calçados</h3>
+        <select class="form-select" aria-label="Default select example" id="selectCalcados">
+        <option selected>Selecione seu calçado</option>
+        <option value="TÊNIS AIR FORCE1">TÊNIS AIR FORCE1</option>
+        <option value="TÊNIS NIKE AIR MAX TW EWT">TÊNIS NIKE AIR MAX TW EWT</option>
+        <option value="TÊNIS ADIDAS OZMILLEN">TÊNIS ADIDAS OZMILLEN</option>
+        <option value="TÊNIS AIR FORCE 1 '07">TÊNIS AIR FORCE 1 '07</option>
+        <option value="TÊNIS ADIDAS ADI 2000">TÊNIS ADIDAS ADI 2000</option>
         </select>  
-        <h3>Sobrememsas</h3>
-        <select class="form-select" aria-label="Default select example" id="selectSobremesas">
-        <option selected>Selecione sua sobremesa</option>
-        <option value="Fatia de bolo">Fatia de bolo</option>
-        <option value="Bombons">Bombons</option>
-        <option value="Sonhos">Sonhos</option>
+        <h3>Calças</h3>
+        <select class="form-select" aria-label="Default select example" id="selectCalcas">
+        <option selected>Selecione sua calça</option>
+        <option value="JOGGER BALI HAI CWB PINE">JOGGER BALI HAI CWB PINE</option>
+        <option value="CALÇA BALI HAI NYLON">CALÇA BALI HAI NYLON</option>
+        <option value="CALÇA BOLSO FACA PREGAS">CALÇA BOLSO FACA PREGAS</option>
+        <option value="CALÇA BALI HAI STAR">CALÇA BALI HAI STAR</option>
+        <option value="CALÇA MOLETOM JOGGER LOVERS">CALÇA MOLETOM JOGGER LOVERS</option>
+        </select>
+        <h3>Bermudas</h3>
+        <select class="form-select" aria-label="Default select example" id="selectBermudas">
+        <option selected>Selecione sua bermuda</option>
+        <option value="BERMUDA BALI HAI CHINO">BERMUDA BALI HAI CHINO</option>
+        <option value="BERMUDA SARJA CHINO BALI HAI">BERMUDA SARJA CHINO BALI HAI</option>
+        <option value="BERMUDA BALI HAI CARGO RIP STOP">BERMUDA BALI HAI CARGO RIP STOP</option>
+        <option value="BERMUDA JEANS BALI HAI SLIM BALI HAI">BERMUDA JEANS BALI HAI SLIM BALI HAI</option>
+        <option value="SAIA CURTA ADIDAS ORIGINALS ALWAYS BLACK">SAIA CURTA ADIDAS ORIGINALS ALWAYS BLACK</option>
+        </select>
+        <h3>Regatas</h3>
+        <select class="form-select" aria-label="Default select example" id="selectRegatas">
+        <option selected>Selecione sua regata</option>
+        <option value="REGATA BALI HAI STAR FEMININO">REGATA BALI HAI STAR FEMININO</option>
+        <option value="REGATA MITCHEL & NESS BOSTON CELTICS">REGATA MITCHEL & NESS BOSTON CELTICS</option>
+        <option value="REGATA MITCHELL & NESS CHICAGO BULLS PIPPEN">REGATA MITCHELL & NESS CHICAGO BULLS PIPPEN</option>
+        <option value="REGATA MITCHELL & NESS ORLANDO MAGIC SHAQUILLE O'NEAL">REGATA MITCHELL & NESS ORLANDO MAGIC SHAQUILLE O'NEAL</option>
+        <option value="REGATA CREATURE SLAUGHTER OUTLINE">REGATA CREATURE SLAUGHTER OUTLINE</option>
         </select>
         <div>
             <button type="button" onclick="calcularTotal()" class="btn btn-success">Fazer pedido</button>
@@ -64,12 +88,18 @@
             <span class="badge rounded-pill bg-danger" id="resultado"></span>
         </div> 
         <div class="pedido-pronto" id="pedido-pronto">
-            <h4>Pratos</h4>
-            <p id="pratos-pronto"></p>
-            <h4>Bebidas</h4>
-            <p id="bebidas-pronto"></p>
-            <h4>Sobremesas</h4>
-            <p id="sobremesas-pronto"></p>
+            <h4>Blusas</h4>
+            <p id="blusas-pronto"></p>
+            <h4>Calçados</h4>
+            <p id="calcados-pronto"></p>
+            <h4>Calças</h4>
+            <p id="calcas-pronto"></p>
+            <h4>Bermuda</h4>
+            <p id="bermudas-pronto"></p>
+            <h4>Regatas</h4>
+            <p id="regatas-pronto"></p>
+
+            <img class="whatsapp" onclick="whatsapp()" src="../imagens/whatsapp.png">
         </div>    
     </div>
 </body>

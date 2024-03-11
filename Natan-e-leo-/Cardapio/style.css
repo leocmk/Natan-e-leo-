@@ -1,19 +1,25 @@
 *{
+  margin: 0px;
+  padding: 0px;
 }
 
 
 body{
+margin: 0px;
+padding: 0px;
 height: auto;
-width: 100%;
+width: auto;
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-padding: 50px;
-background-color: moccasin;
-
 }
-
+.body8{
+  width: auto;
+  height: auto;
+  background-color: rgb(130, 119, 116);
+  padding: 50px;
+}
 
 
 .h1{
@@ -105,7 +111,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
 .top1:hover{
   height: 80%;
@@ -115,7 +121,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
 .container2{
   width:100%;
@@ -129,7 +135,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
 .top2:hover{
   height: 80%;
@@ -139,7 +145,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
 .container3{
   width:100%;
@@ -153,7 +159,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
 .top3:hover{
   height: 80%;
@@ -163,7 +169,7 @@ html, body{
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  transition: all 100ms linear;
+  transition: all 300ms linear;
 }
         h1{
             margin:0;
@@ -332,7 +338,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top4:hover{
       height: 80%;
@@ -342,7 +348,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .container5{
       width:100%;
@@ -356,7 +362,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top5:hover{
       height: 80%;
@@ -366,7 +372,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .container6{
       width:100%;
@@ -380,7 +386,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top6:hover{
       height: 80%;
@@ -390,7 +396,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .container7{
       width:100%;
@@ -404,7 +410,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top7:hover{
       height: 80%;
@@ -414,7 +420,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .container8{
       width:100%;
@@ -428,7 +434,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top8:hover{
       height: 80%;
@@ -438,7 +444,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .container9{
       width:100%;
@@ -452,7 +458,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .top9:hover{
       height: 80%;
@@ -462,7 +468,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topBlusa1{
       height: 80%;
@@ -472,7 +478,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topBlusa1:hover{
       height: 80%;
@@ -482,7 +488,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topBlusa2{
       height: 80%;
@@ -492,7 +498,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topBlusa2:hover{
       height: 80%;
@@ -502,7 +508,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topAf12{
       height: 80%;
@@ -512,7 +518,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .topAf12:hover{
       height: 80%;
@@ -522,7 +528,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .ten1{
       height: 80%;
@@ -532,7 +538,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .ten1:hover{
       height: 80%;
@@ -542,7 +548,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .cal1{
       height: 80%;
@@ -552,7 +558,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .cal1:hover{
       height: 80%;
@@ -562,7 +568,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .cal2{
       height: 80%;
@@ -572,7 +578,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .cal2:hover{
       height: 80%;
@@ -582,7 +588,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .ber1{
       height: 80%;
@@ -592,7 +598,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .ber1:hover{
       height: 80%;
@@ -602,7 +608,7 @@ html, body{
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .bungee-spice-regular {
       font-family: "Bungee Spice", sans-serif;
@@ -612,25 +618,187 @@ html, body{
       align-items: column;
       justify-content: center;
       font-size: 30px;
+      text-shadow: 2px 2px 2px black;
 
     }
     .ber2{
       height: 80%;
       width:100%;
-      background: url(../imagens/berm2.avif) no-repeat center center; 
+      background: url(../imagens/bermuda2.avif) no-repeat center center; 
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
     }
     .ber2:hover{
       height: 80%;
       width:100%;
-      background: url(../imagens/berm2H.avif) no-repeat center center; 
+      background: url(../imagens/bermuda2H.avif) no-repeat center center; 
       -webkit-background-size: 100%;
       -moz-background-size: 100%;
       -o-background-size: 100%;
       background-size: 100%;
-      transition: all 100ms linear;
+      transition: all 300ms linear;
+    }
+    .ber3{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/bermuda3.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .ber3:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/bermuda3H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .ber4{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/bermuda4.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .ber4:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/bermuda4H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .saia1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/saia1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .saia1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/saia1H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+
+    .regata1{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata1.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata1:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata1H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata2{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata2.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata2:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata2H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata3{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata3.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata3:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata3H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata4{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata4.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata4:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata4H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata5{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata5.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
+    }
+    .regata5:hover{
+      height: 80%;
+      width:100%;
+      background: url(../imagens/regata5H.avif) no-repeat center center; 
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      transition: all 300ms linear;
     }
