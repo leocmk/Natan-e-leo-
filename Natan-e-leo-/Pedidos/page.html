@@ -35,6 +35,7 @@
       <div id="selects-div">
         <h2>Olá <span id="nome-span"></span>, vamos começar seu pedido!</h2>
         <h3>Blusas</h3>
+        <br>
         <select class="form-select" aria-label="Default select example" id="selectBlusas">
         <option selected>Selecione sua blusa</option>
         <option value="MOLETOM VERMELHO">MOLETOM VERMELHO</option>
@@ -43,6 +44,7 @@
         <option value="MOLETOM PRETO CHAMIPON">MOLETOM PRETO CHAMIPON</option>
         <option value="MOLETOM BICOLOR MODERNO">MOLETOM BICOLOR MODERNO</option>
         </select> 
+        <br>
         <h3>Calçados</h3>
         <select class="form-select" aria-label="Default select example" id="selectCalcados">
         <option selected>Selecione seu calçado</option>
@@ -52,6 +54,7 @@
         <option value="TÊNIS AIR FORCE 1 '07">TÊNIS AIR FORCE 1 '07</option>
         <option value="TÊNIS ADIDAS ADI 2000">TÊNIS ADIDAS ADI 2000</option>
         </select>  
+        <br>
         <h3>Calças</h3>
         <select class="form-select" aria-label="Default select example" id="selectCalcas">
         <option selected>Selecione sua calça</option>
@@ -61,6 +64,7 @@
         <option value="CALÇA BALI HAI STAR">CALÇA BALI HAI STAR</option>
         <option value="CALÇA MOLETOM JOGGER LOVERS">CALÇA MOLETOM JOGGER LOVERS</option>
         </select>
+        <br>
         <h3>Bermudas</h3>
         <select class="form-select" aria-label="Default select example" id="selectBermudas">
         <option selected>Selecione sua bermuda</option>
@@ -70,6 +74,7 @@
         <option value="BERMUDA JEANS BALI HAI SLIM BALI HAI">BERMUDA JEANS BALI HAI SLIM BALI HAI</option>
         <option value="SAIA CURTA ADIDAS ORIGINALS ALWAYS BLACK">SAIA CURTA ADIDAS ORIGINALS ALWAYS BLACK</option>
         </select>
+      <br>
         <h3>Regatas</h3>
         <select class="form-select" aria-label="Default select example" id="selectRegatas">
         <option selected>Selecione sua regata</option>
@@ -80,12 +85,16 @@
         <option value="REGATA CREATURE SLAUGHTER OUTLINE">REGATA CREATURE SLAUGHTER OUTLINE</option>
         </select>
         <div>
+            <br>
             <button type="button" onclick="calcularTotal()" class="btn btn-success">Fazer pedido</button>
             <button type="button" onclick="limpar()" class="btn btn-outline-secundary">limpar</button>
+      
         </div>  
         <div>
+    <br>
             <span class="badge rounded-pill bg-dark">Total</span>
             <span class="badge rounded-pill bg-danger" id="resultado"></span>
+        <br>
         </div> 
         <div class="pedido-pronto" id="pedido-pronto">
             <h4>Blusas</h4>

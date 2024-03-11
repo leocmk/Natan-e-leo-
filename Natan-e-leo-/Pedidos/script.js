@@ -53,7 +53,7 @@ function calcularTotal() {
             total += 299.99;
             blusas = 299.99;
             break;
-        case "MOLETOM PRETO CHAMPION":
+        case "MOLETOM PRETO CHAMIPON":
             total += 299.99;
             blusas = 299.99;
             break;
@@ -114,7 +114,7 @@ function calcularTotal() {
             total += 124.99;
             bermudas = 124.99;
             break;
-        case "CBERMUDA SARJA CHINO BALI HAI":
+        case "BERMUDA SARJA CHINO BALI HAI":
             total += 84.99;
             bermudas = 84.99;
             break;
