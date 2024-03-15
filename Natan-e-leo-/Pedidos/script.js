@@ -171,9 +171,28 @@ function limpar() {
 function whatsapp(){
     var numeroTelefone = "5541992320797";
     
-    calcularTotal(); // Certifica-se de que o total é calculado antes de prosseguir
+    calcularTotal(); 
 
     var nomeGlobal = document.getElementById("exampleFormControlInput1").value;
+
+    var data = new Date();
+
+    var dia = data.getDate();
+    var mes = data.getMonth() + 1;
+    var ano = data.getFullYear();
+    
+
+    var hora = data.getHours();
+    var minuto = data.getMinutes();
+
+    if (minuto < 10) {
+        minuto = "0" + minuto;
+    }
+    if (hora < 10) {
+        hora = "0" + hora;
+    }
+    
+    var dataFormatada = dia + "/" + mes + "/" + ano + " - " + hora + ":" + minuto;
 
     var selectBlusas = document.getElementById("selectBlusas").value;
     var selectCalcados = document.getElementById("selectCalcados").value;
@@ -198,7 +217,11 @@ Itens Escolhidos:
 - ${selectRegatas}: R$ ${regatas.toFixed(2)}
 
 Total: R$ ${total.toFixed(2)}
-`;
+` 
++ " Data do pedido: " + dataFormatada;
+
+
+;
 
     var linkWhatsApp = 
     "https://wa.me/" + 
